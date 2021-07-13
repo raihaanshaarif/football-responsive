@@ -70,6 +70,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    grid-gap: 30px;
 }
 .player-card{
     width: 330px;
