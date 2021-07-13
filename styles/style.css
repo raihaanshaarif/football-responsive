@@ -34,6 +34,7 @@ button{
     width: 168px;
     height: 44px;
     padding: 10px 24px;
+    border: none;
    
 }
 button a{
@@ -69,8 +70,8 @@ main{
 .players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    grid-gap: 30px;
+    justify-content: center;
+    grid-gap: 15px;
 }
 .player-card{
     width: 330px;
